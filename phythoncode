@@ -1,0 +1,7 @@
+ls -la
+print : this is function code
+[
+    for [ i =0 : i<10 : i++ ] 
+    call r = ref(i)
+    print { " The ref is " , i} 
+]
